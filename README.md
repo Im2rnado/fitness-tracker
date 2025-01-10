@@ -19,21 +19,6 @@ A comprehensive web-based fitness tracking system that allows users to manage th
 - JavaScript
 - XAMPP Server
 
-## Installation
-
-1. Install XAMPP on your system
-2. Clone this repository to your `htdocs` folder
-3. Import the database schema (included in SQL files)
-4. Configure database connection in `dbconnect.php`
-5. Access the application through your web browser at `localhost/web final`
-
-## System Requirements
-
-- PHP 7.0 or higher
-- MySQL 5.6 or higher
-- Apache Web Server
-- Modern web browser
-
 ## Usage
 
 ### User Features
@@ -48,6 +33,21 @@ A comprehensive web-based fitness tracking system that allows users to manage th
 - Add/Edit/Delete exercises
 - View system statistics
 - Monitor user enrollments
+
+## System Requirements
+
+- PHP 7.0 or higher
+- MySQL 5.6 or higher
+- Apache Web Server
+- Modern web browser
+
+## Installation
+
+1. Install XAMPP on your system
+2. Clone this repository to your `htdocs` folder
+3. Import the database schema (included in SQL files)
+4. Configure database connection in `dbconnect.php`
+5. Access the application through your web browser at `localhost/web final`
 
 ## Contributors
 
