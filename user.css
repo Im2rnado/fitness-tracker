@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5F9EA0;
+    /* Page background color */
+    color: #333;
+}
+
+.header {
+    background-color: #FFFAF0;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header .buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header .buttons button {
+    background-color: #5F9EA0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dashboard {
+    background-color: #FFFAF0;
+    /* Dashboard background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.dashboard h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    color: #FFFAF0;
+    text-align: justify;
+    background-color: #5F9EA0;
+}
+
+.user-info {
+    background-color: #FFFAF0;
+    /* User info background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info p {
+    margin: 8px 0;
+}
+
+/* Logout button styles */
+.logout {
+    background-color: darkred !important;
+}

@@ -1,0 +1,40 @@
+# PHP specific files
+vendor/
+composer.phar
+composer.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.backup
+.phpunit.result.cache
+
+# System files
+.DS_Store
+Thumbs.db
+*.pptx
+videos/
+
+# Log files
+*.log
+logs/
+error_log
+
+# Cache files
+*.cache
+cache/
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+
+# Build directories
+build/
+dist/
